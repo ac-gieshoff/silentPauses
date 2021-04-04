@@ -11,8 +11,6 @@ Caution: I have not tried all audio and video extensions yet. mp3, wav, mp4 work
 from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 import pandas as pd
 
-#for video files, specify the frame rate
-fps= 25
 #import table. Replace "myTable.xlsx" with the full path to your table. You can specify the name of the sheet if necessary. 
 #The argument "converters" allows you to specify the correct format for certain columns if necessary.
 #myTable has a column "path" specifying the path were the audio or video is stored, 
